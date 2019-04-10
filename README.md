@@ -1,5 +1,5 @@
 ## Code for Insight project [TrySomethingNew](http://www.trynewthings.us/):
-* APICollect.py : Collects member profiles off Meetup's API
+* meetup_api_wrapper : Tool to collect member profiles off Meetup's API
 * webapp_files/site_files/extractData.py : Calculates user-similarity and items ranking
 * webapp_files/site_files/model.py : Processes user input; Finds events related to recommendations
 
