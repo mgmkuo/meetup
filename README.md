@@ -1,7 +1,6 @@
-## Code for Insight project [TrySomethingNew](http://www.trynewthings.us/):
-* meetup_api_wrapper : Tool to collect member profiles off Meetup's API
-* webapp_files/site_files/extractData.py : Calculates user-similarity and items ranking
-* webapp_files/site_files/model.py : Processes user input; Finds events related to recommendations
+## Code for Insight project *TrySomethingNew*:
+* *meetup_api_wrapper*: Tool to collect member profiles off Meetup's API
+* *webapp_files*: files for running the web app.
 
 ## About
 *TrySomethingNew* is a webapp to help users find unexpected interests on MeetUp. The goal is to help users discover new hobbies and expand their interests. The tool uses collaborative filtering to recommend activities users may not have thought of.
@@ -11,4 +10,5 @@ Meetup member profiles were collected through Meetup's API. About 41,000 profile
 
 ## Packages Used
 * API: urllib.request, json
-* Recommendation system: numpy, pandas, scipy.sparse, beautifulsoup
+* Recommendation system: numpy, pandas, scipy.sparse, beautifulsoup   
+View requirements file for full list and to set up environment for running app.

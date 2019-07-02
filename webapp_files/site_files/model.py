@@ -45,6 +45,7 @@ def find_meetups(hobbies):
         url = 'https://www.meetup.com/find/?allMeetups=false&keywords={}\
          &radius=5&userFreeform=New+York%2C+NY&mcId=z10001&mcName=New+York\
          %2C+NY&sort=default&eventFilter=mysugg'.format(hobby)
+        url = url.replace(' ', '')
         uh = urllib.request.urlopen(url)
         data = uh.read().decode()    
         soup = BeautifulSoup(data, 'html.parser')
